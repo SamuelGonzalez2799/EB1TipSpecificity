@@ -9,12 +9,13 @@ This code is used to quantify the amount of EB1 tip tracking in both cell free a
 MATLAB by Mathworks
 
 ## Getting Started
+To get started, download this Github repository as a zipped file by downloading it from the "code" dropdown menu, unzip the file locally, and save it in an accessible location.  
 
-To use the code, download the script into the folder with your images to analyze. Of note, the script assumes that all images have a similar naming scheme (image0001, image0002, etc) so that it can automatically load in the next file. Of note, all inputs should be an RGB image with the dynamic microtubule in red, EB1 in green, and MT seed in green. If either of these are different, change them at the start of the code to ensure the output is correct. Furthermore, choose the name you want for the filename1 (which will be an excel sheet). Before starting the code, you will want to make sure that the filename1 is adjusted to what you what the output file to be called and the filename (image name) is changed to whatever you would like (here it assumes the images are TIFs).
+To use the code, move the repository into the folder with your images to analyze. Of note, the script assumes that all images have a similar naming scheme (image0001, image0002, etc) so that it can automatically load in the next file. Of note, all inputs should be an RGB image with the dynamic microtubule in red, EB1 in green, and MT seed in green. If either of these are different, change them at the start of the code to ensure the output is correct. Furthermore, choose the name you want for the filename1 (which will be an excel sheet). Before starting the code, you will want to make sure that the filename1 is adjusted to what you what the output file to be called and the filename (image name) is changed to whatever you would like (here it assumes the images are TIFs).
 
 ## Prerequisites
 
-Ensure Matlab is operational on your device. This code was generated to work with MATLAB 2022b.
+Ensure Matlab is operational on your device. This code was generated to work with MATLAB 2022b. It should work with newer versions of Matlab. 
 
 ## Installation
 
